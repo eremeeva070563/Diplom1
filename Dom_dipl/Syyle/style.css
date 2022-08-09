@@ -1,0 +1,91 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header{
+    background-color: #F3C6BD;
+    padding: 44px 0 44px;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_tytle{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #2B292D;
+    
+}
+
+.logo_text{    
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(43, 41, 45, 0.6);
+}
+.logo{
+    margin-right: 15px;
+}
+
+.header_ul{
+    margin-right: 50px;
+}
+
+.header_li{
+    position: relative;
+    margin-right: 25px;
+}
+
+.header_link{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: right;
+    color: #2B292D;
+}
+
+.header_link:hover{
+    font-weight: bold;
+    transition: 600ms;
+}
+
+.header_button{
+    Width:160px;
+    Height:48px;
+    background-color: #182bce;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    line-height: 13px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.header_button:hover{
+   cursor: pointer;
+   background-color: #031088;
+   transition: 600ms;
+}
+.header_link:hover::before{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 25px; 
+    left: -5px; ;     
+    background-color: aqua;
+}
+
+.header_link:hover::after{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 25px; 
+    transition: 60ms;    
+    background-color: aqua;}
